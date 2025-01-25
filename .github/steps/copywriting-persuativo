@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copywriting Persuasivo - Transforme Palavras em Vendas</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #F4F4F9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #8E44AD; /* Cor roxa */
+            color: white;
+            padding: 40px 20px;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            background: #FF5722;
+            color: white;
+            padding: 20px 40px;
+            font-size: 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            transition: transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            background: #E64A19;
+            transform: scale(1.1);
+        }
+        .cta-button:active {
+            transform: scale(0.95);
+        }
+        .countdown {
+            font-size: 28px;
+            font-weight: bold;
+            color: #8E44AD; /* Cor roxa */
+            margin-top: 30px;
+        }
+        .payment {
+            background: #FAFAFA;
+            padding: 30px;
+            margin-top: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .whatsapp-button {
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .whatsapp-button:hover {
+            background: #1EBE5D;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 40px 0;
+            background-color: #F9F9F9;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        section h3 {
+            font-size: 28px;
+            color: #FF5722;
+            margin-bottom: 15px;
+        }
+        section p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .testimonial {
+            font-style: italic;
+            color: #777;
+            margin-top: 15px;
+        }
+        .testimonial img {
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        .testimonial-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .testimonial-item {
+            flex-basis: 45%;
+            background: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-item img {
+            width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .cta-button {
+                font-size: 20px;
+                padding: 15px 30px;
+            }
+            .whatsapp-button {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+            .testimonial-section {
+                flex-direction: column;
+            }
+            section h3 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Copywriting Persuasivo - Transforme Palavras em Vendas</header>
+
+    <div class="container">
+        <h2>Descubra os Segredos do Copywriting Persuasivo</h2>
+        <p>Aprenda a escrever textos irresistíveis que geram mais conversões e aumentam suas vendas de forma eficaz e consistente.</p>
+
+        <div>
+            <img src="https://via.placeholder.com/600x400/8E44AD/ffffff?text=Copywriting+Persuasivo" alt="Copywriting Persuasivo" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+        </div>
+
+        <div class="countdown" id="countdown">
+            Oferta Especial! Só até: <span id="timer">05:00</span>
+        </div>
+
+        <a href="#comprar" class="cta-button">Garanta Agora o Seu eBook - Transforme Sua Forma de Escrever!</a>
+
+        <section>
+            <h3>O que nossos clientes estão dizendo</h3>
+            <div class="testimonial-section">
+                <div class="testimonial-item">
+                    <p class="testimonial">
+                        <img src="https://via.placeholder.com/40" alt="João Silva"> "Este eBook mudou a forma como escrevo para meus clientes! As técnicas são práticas e realmente funcionam." - João Silva
+                    </p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial">
+                        <img src="https://via.placeholder.com/40" alt="Maria Fernandes"> "Após aplicar as dicas, minhas vendas aumentaram significativamente. Vale cada centavo!" - Maria Fernandes
+                    </p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial">
+                        <img src="https://via.placeholder.com/40" alt="Carlos Souza"> "Eu estava em dúvida, mas depois de ler o eBook, apliquei as estratégias e já estou vendo resultados. Super recomendo!" - Carlos Souza
+                    </p>
+                </div>
+                <div class="testimonial-item">
+                    <p class="testimonial">
+                        <img src="https://via.placeholder.com/40" alt="Fernanda Lima"> "As dicas de copywriting foram um divisor de águas para mim. Simples, mas extremamente poderosas!" - Fernanda Lima
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="payment" id="comprar">
+            <h3>Formas de Pagamento</h3>
+            <p>Aceitamos pagamentos via Multicaixa Express, Transferência Bancária, **Chave Kwik** e outras opções em Kwanza (AOA). O processo é rápido e seguro.</p>
+            <p><strong>IBAN da Conta Bancária:</strong> 0040.0000.4246.1152.1014.8 - Antónia de Nazaré Francisco C Lulendo</p>
+            <p><strong>Chave Kwik:</strong> 942685778</p>
+            <p>Após o pagamento, envie o comprovante para nosso suporte e receba o seu eBook por e-mail em instantes.</p>
+            <a href="https://wa.me/942685778" class="whatsapp-button">Fale Conosco no WhatsApp</a>
+        </div>
+    </div>
+
+    <footer>&copy; 2025 Copywriting Persuasivo | Todos os direitos reservados.</footer>
+
+    <script>
+        var countdownElement = document.getElementById('timer');
+        var countdownTime = 300; // tempo em segundos (5 minutos)
+        var interval = setInterval(function() {
+            var minutes = Math.floor(countdownTime / 60);
+            var seconds = countdownTime % 60;
+            countdownElement.textContent = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+            countdownTime--;
+            if (countdownTime < 0) {
+                clearInterval(interval);
+                countdownElement.textContent = "Oferta Expirada!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
